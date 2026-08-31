@@ -1,0 +1,35 @@
+﻿Checking project dependencies...
+Building FluiCheckBox4D.dproj (Debug, Win32)
+brcc32 command line for "FluiCheckBox4D.vrc"
+  c:\program files (x86)\embarcadero\studio\23.0\bin\cgrc.exe -c65001 FluiCheckBox4D.vrc -foFluiCheckBox4D.res 
+dcc32 command line for "FluiCheckBox4D.dpk"
+  c:\program files (x86)\embarcadero\studio\23.0\bin\dcc32.exe -$O- -$W+ -$R+ -$Q+ --no-config -B -Q -TX.bpl 
+  -AGenerics.Collections=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Windows;
+  DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE -DDEBUG;;FRAMEWORK_VCL -I"c:\program files (x86)\embarcadero\studio\23.0\lib\Win32\release";
+  C:\Users\joaov\Documents\Embarcadero\Studio\23.0\Imports;C:\Users\joaov\Documents\Embarcadero\Studio\23.0\Imports\Win32;"c:\program files 
+  (x86)\embarcadero\studio\23.0\Imports";C:\Users\Public\Documents\Embarcadero\Studio\23.0\Dcp;"c:\program files (x86)\embarcadero\studio\23.0\include";
+  C:\dev\components\meuTPanelArredondado\Source;C:\dev\components\fluiLibrary\FluiPanel4D\src;C:\dev\components\fluiLibrary\FluiEdit4D\src;
+  C:\dev\components\fluiLibrary\FluiComboBox4D\src;C:\dev\components\fluiLibrary\FluiToast4D\src 
+  -LEC:\Users\Public\Documents\Embarcadero\Studio\23.0\Bpl -LNC:\Users\Public\Documents\Embarcadero\Studio\23.0\Dcp -NSWinapi;System.Win;Data.Win;
+  Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;DUnitX.Loggers.GUI; 
+  -O"c:\program files (x86)\embarcadero\studio\23.0\lib\Win32\release";C:\Users\joaov\Documents\Embarcadero\Studio\23.0\Imports;
+  C:\Users\joaov\Documents\Embarcadero\Studio\23.0\Imports\Win32;"c:\program files (x86)\embarcadero\studio\23.0\Imports";
+  C:\Users\Public\Documents\Embarcadero\Studio\23.0\Dcp;"c:\program files (x86)\embarcadero\studio\23.0\include";
+  C:\dev\components\meuTPanelArredondado\Source;C:\dev\components\fluiLibrary\FluiPanel4D\src;C:\dev\components\fluiLibrary\FluiEdit4D\src;
+  C:\dev\components\fluiLibrary\FluiComboBox4D\src;C:\dev\components\fluiLibrary\FluiToast4D\src -R"c:\program files 
+  (x86)\embarcadero\studio\23.0\lib\Win32\release";C:\Users\joaov\Documents\Embarcadero\Studio\23.0\Imports;
+  C:\Users\joaov\Documents\Embarcadero\Studio\23.0\Imports\Win32;"c:\program files (x86)\embarcadero\studio\23.0\Imports";
+  C:\Users\Public\Documents\Embarcadero\Studio\23.0\Dcp;"c:\program files (x86)\embarcadero\studio\23.0\include";
+  C:\dev\components\meuTPanelArredondado\Source;C:\dev\components\fluiLibrary\FluiPanel4D\src;C:\dev\components\fluiLibrary\FluiEdit4D\src;
+  C:\dev\components\fluiLibrary\FluiComboBox4D\src;C:\dev\components\fluiLibrary\FluiToast4D\src -U"c:\program files 
+  (x86)\embarcadero\studio\23.0\lib\Win32\release";C:\Users\joaov\Documents\Embarcadero\Studio\23.0\Imports;
+  C:\Users\joaov\Documents\Embarcadero\Studio\23.0\Imports\Win32;"c:\program files (x86)\embarcadero\studio\23.0\Imports";
+  C:\Users\Public\Documents\Embarcadero\Studio\23.0\Dcp;"c:\program files (x86)\embarcadero\studio\23.0\include";
+  C:\dev\components\meuTPanelArredondado\Source;C:\dev\components\fluiLibrary\FluiPanel4D\src;C:\dev\components\fluiLibrary\FluiEdit4D\src;
+  C:\dev\components\fluiLibrary\FluiComboBox4D\src;C:\dev\components\fluiLibrary\FluiToast4D\src -K00400000 --description:"FluiCheckBox4D - Custom 
+  CheckBox for Delphi VCL" -NBC:\Users\Public\Documents\Embarcadero\Studio\23.0\Dcp -NHC:\Users\Public\Documents\Embarcadero\Studio\23.0\hpp\Win32  
+  FluiCheckBox4D.dpk   
+[dcc32 Error] FluiCheckBox4D.pas(160): E2250 There is no overloaded version of 'DrawLines' that can be called with these arguments
+[dcc32 Fatal Error] FluiCheckBox4D.dpk(38): F2063 Could not compile used unit 'FluiCheckBox4D.pas'
+Failed
+Elapsed time: 00:00:00.7
